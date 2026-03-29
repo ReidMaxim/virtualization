@@ -1,0 +1,21 @@
+what is docker? 
+  a platform for applications that are containorized. 
+  a container bundles an application with its fiesystem, libraries and dependencies so it runs the same way across enviroments.
+  docker uses OS-level virtualization rather then a full VM. 
+
+How a docker container differs from a virtual enviroment.
+  docker is OS-level virtualization vs VM that is hardware level virtualization. 
+  containers are lightweight and small image sizes vs VM's that are larger disk images.
+  VM's have stronger isolations then containers using a seperate guest kernal and virtualized hardware. 
+  docker containers are used for microservices, reproducible dev enviroments and lightweight app isolation vs VM's that are used for whole OS kernals, strong isolation and good for testing untrusted code/malware analysis.  
+
+Why containers are useful in modren IT and software development. 
+  containers help with keeping things working across different systems. by coming prepacked with needed libraries and dependencies it reduces the stress and headache of installing something that would normally be a quick one line install on linux. 
+  they that quickly and dont waste much memory or CPU which makes running a bunch of diverse services on the same system, allowing scaling and portability. 
+  software devs can test/add new features without risk of breaking their machine. new updates can be automated and pushed out to every system running the software....this eliminates human error on install setup and allows all systems to be running on the same updated version. 
+
+A scenario I would use Docker over VirtualBox.
+  setting up a vulnerable web application to practice SQL injection or IDOR vulnarabilitys
+  i have found tons of prebuilt images for CTF style challenges to learn ethical hacking that allow you to practice on something without the need to fire up a whole virtual machine to do. 
+  this has allowed me to practice and learn on hardware that would normally be a unhappy with virtualization. 
+  This also lets people use the same enviroment without any prior setup and makes teaching and learning alot easier.
